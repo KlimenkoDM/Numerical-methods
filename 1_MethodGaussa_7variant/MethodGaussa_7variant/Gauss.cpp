@@ -10,7 +10,7 @@ int main()
 	double* Ax = new double[SIZE];
 	double* xs = new double[SIZE];
 	double* x = new double[SIZE];
-	double* matrixs[SIZE];
+	double** matrixs=new double*[SIZE];
 	double matrix[SIZE][SIZE + 1] = {
 		{2.6, -4.5, -2, 19.07},
 		{3, 3, 4.3, 3.21},
